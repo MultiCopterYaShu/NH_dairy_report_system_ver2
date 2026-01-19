@@ -14,3 +14,7 @@ build/
 .env
 .DS_Store
 
+# SSH Keys
+*.pub
+yasukenn3040
+
