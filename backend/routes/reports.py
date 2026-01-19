@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify, session
-from backend.utils.json_manager import load_json, save_json
+from backend.utils.json_manager import load_json, save_json, list_files
 from backend.routes.auth import login_required, admin_required
 import uuid
 from datetime import datetime
@@ -107,15 +107,14 @@ def get_report_by_date(date):
 @admin_required
 def get_all_reports():
     """全ユーザーの日報一覧取得（admin専用）"""
-    data_dir = 'data'
     all_reports = []
     users = load_json('users.json')
     
     # 全ユーザーの日報ファイルを読み込む
     for username in users.keys():
-        reports_file = os.path.join(data_dir, get_user_reports_filename(username))
-        if os.path.exists(reports_file):
-            user_reports = load_json(get_user_reports_filename(username))
+        reports_filename = get_user_reports_filename(username)
+        user_reports = load_json(reports_filename)
+        if user_reports:  # ファイルが存在する場合（空でない場合）
             for report in user_reports.get('reports', []):
                 # ユーザー名を追加
                 report_with_username = report.copy()

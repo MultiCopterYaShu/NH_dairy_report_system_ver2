@@ -4,4 +4,5 @@ Werkzeug
 python-dotenv
 openpyxl
 gunicorn
+boto3
 

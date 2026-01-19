@@ -1,11 +1,10 @@
 from flask import Blueprint, request, jsonify, session, send_file
-from backend.utils.json_manager import load_json, save_json
+from backend.utils.json_manager import load_json, save_json, list_files
 from backend.utils.excel_manager import export_work_items_to_excel, import_work_items_from_excel, export_project_to_excel, export_project_to_excel_detail, export_project_view_to_excel
 from backend.routes.auth import admin_required, login_required
 import uuid
 import os
 import tempfile
-import glob
 
 bp = Blueprint('masters', __name__, url_prefix='/api/masters')
 
@@ -24,10 +23,9 @@ def get_work_items():
     else:
         # 工程IDが指定されていない場合は全ての工程の作業項目を読み込む
         all_items = []
-        data_dir = 'data'
-        work_item_files = glob.glob(os.path.join(data_dir, 'work_items_*.json'))
-        for file_path in work_item_files:
-            filename = os.path.basename(file_path)
+        from backend.utils.json_manager import list_files
+        work_item_files = list_files('work_items_')
+        for filename in work_item_files:
             # ファイル名から工程IDを抽出 (work_items_{work_type_id}.json)
             if filename.startswith('work_items_') and filename.endswith('.json'):
                 work_type_id_from_file = filename[11:-5]  # 'work_items_'を削除し、'.json'を削除
@@ -695,13 +693,12 @@ def export_project():
     
     # 全ユーザーの日報を取得
     all_reports = []
-    data_dir = 'data'
     users_data = load_json('users.json')
     
     for username in users_data.keys():
-        reports_file = os.path.join(data_dir, f'reports_{username}.json')
-        if os.path.exists(reports_file):
-            user_reports_data = load_json(f'reports_{username}.json')
+        reports_filename = f'reports_{username}.json'
+        user_reports_data = load_json(reports_filename)
+        if user_reports_data:  # ファイルが存在する場合（空でない場合）
             for report in user_reports_data.get('reports', []):
                 report_with_username = report.copy()
                 report_with_username['username'] = username
@@ -763,13 +760,12 @@ def export_project_view():
     
     # 全ユーザーの日報を取得
     all_reports = []
-    data_dir = 'data'
     users_data = load_json('users.json')
     
     for username in users_data.keys():
-        reports_file = os.path.join(data_dir, f'reports_{username}.json')
-        if os.path.exists(reports_file):
-            user_reports_data = load_json(f'reports_{username}.json')
+        reports_filename = f'reports_{username}.json'
+        user_reports_data = load_json(reports_filename)
+        if user_reports_data:  # ファイルが存在する場合（空でない場合）
             for report in user_reports_data.get('reports', []):
                 report_with_username = report.copy()
                 report_with_username['username'] = username
