@@ -4,7 +4,8 @@ from typing import Any, Dict
 
 # 環境変数からデータディレクトリのパスを取得（Renderのディスクストレージ対応）
 # デフォルトは相対パスの'data'
-DATA_DIR = os.environ.get('DATA_DIR', 'data')
+#DATA_DIR = os.environ.get('DATA_DIR', 'data')
+DATA_DIR = '/opt/render/project/src/data'
 
 def ensure_data_dir():
     """データディレクトリが存在することを確認"""
