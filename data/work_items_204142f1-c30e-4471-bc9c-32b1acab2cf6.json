@@ -1,0 +1,1280 @@
+{
+  "items": [
+    {
+      "id": "5b954436-f851-49f9-be3b-df5f175d05f8",
+      "name": "契約前営業",
+      "level": 1,
+      "parent_id": null,
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+      "name": "リード獲得",
+      "level": 2,
+      "parent_id": "5b954436-f851-49f9-be3b-df5f175d05f8",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "59e61929-baea-4cba-ad49-ec40690c1740",
+      "name": "引き合い獲得",
+      "level": 3,
+      "parent_id": "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "af88d8b4-6aff-47b1-9c47-12d0a5780a81",
+      "name": "情報把握",
+      "level": 4,
+      "parent_id": "59e61929-baea-4cba-ad49-ec40690c1740",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・物件概要把握",
+        "・住所",
+        "・築年数",
+        "・建物概要",
+        "・依頼内容把握",
+        "・工種",
+        "・要望",
+        "・戸数",
+        "・時期"
+      ],
+      "method": [
+        "・電話",
+        "・メール",
+        "・WEB"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "76133c24-99ba-4414-bfe2-a1df9c6f5d6a",
+      "name": "不足情報の入手依頼",
+      "level": 4,
+      "parent_id": "59e61929-baea-4cba-ad49-ec40690c1740",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・電話",
+        "・メール"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "c57581a9-e66d-4ddc-904c-ee70a55bdbf5",
+      "name": "不足情報の入手",
+      "level": 4,
+      "parent_id": "59e61929-baea-4cba-ad49-ec40690c1740",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・電話",
+        "・メール"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "76133c24-99ba-4414-bfe2-a1df9c6f5d6a"
+      ],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "6d28a493-04fe-467b-be90-7671d4cdf70f",
+      "name": "概算見積",
+      "level": 3,
+      "parent_id": "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "28c1aa44-7148-4fab-82b6-cf8e7f3967e1",
+      "name": "概算金額見積　作成（口頭回答の場合は不要）",
+      "level": 4,
+      "parent_id": "6d28a493-04fe-467b-be90-7671d4cdf70f",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "e90e0bcd-8186-49f3-808e-476ede88a711",
+      "name": "概算金額見積　提出",
+      "level": 4,
+      "parent_id": "6d28a493-04fe-467b-be90-7671d4cdf70f",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・電話",
+        "・メール"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "b607f7ed-1f93-48e4-a25f-aabd88fca3bb",
+      "name": "顧客確認（確度、予算感折り合い等）",
+      "level": 4,
+      "parent_id": "6d28a493-04fe-467b-be90-7671d4cdf70f",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "e90e0bcd-8186-49f3-808e-476ede88a711"
+      ],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "8daec859-dd41-425c-96b9-bfa0f325ed17",
+      "name": "アポイント",
+      "level": 3,
+      "parent_id": "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "e41c17b8-451c-4711-8283-479298f4c82a",
+      "name": "依頼内容確認",
+      "level": 4,
+      "parent_id": "8daec859-dd41-425c-96b9-bfa0f325ed17",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・電話",
+        "・メール"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "c7282ec7-89e8-48e4-b488-209fca5ac275",
+      "name": "訪問日程調整依頼",
+      "level": 4,
+      "parent_id": "8daec859-dd41-425c-96b9-bfa0f325ed17",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・社内確認",
+        "・顧客確認"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "e3c1669f-7d96-4679-bb5c-74371a8e5d35",
+      "name": "訪問日程調整完了",
+      "level": 4,
+      "parent_id": "8daec859-dd41-425c-96b9-bfa0f325ed17",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [
+        "・社内確認",
+        "・顧客確認"
+      ],
+      "method": [],
+      "internal_leadtime": true,
+      "external_leadtime": true,
+      "internal_leadtime_items": [
+        "c7282ec7-89e8-48e4-b488-209fca5ac275"
+      ],
+      "external_leadtime_items": [
+        "c7282ec7-89e8-48e4-b488-209fca5ac275"
+      ],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "db58fe9e-9901-4573-85a7-af815772b8e9",
+      "name": "現地調査",
+      "level": 2,
+      "parent_id": "5b954436-f851-49f9-be3b-df5f175d05f8",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "a5a5b4fd-9898-4f90-8452-8203e69510dd",
+      "name": "事前準備",
+      "level": 3,
+      "parent_id": "db58fe9e-9901-4573-85a7-af815772b8e9",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "779949aa-aad9-42de-ba01-ede4cfed2161",
+      "name": "依頼内容整理",
+      "level": 4,
+      "parent_id": "a5a5b4fd-9898-4f90-8452-8203e69510dd",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "1a105d14-2ff5-4980-942f-7f973f925d61",
+      "name": "不足情報の入手依頼",
+      "level": 4,
+      "parent_id": "a5a5b4fd-9898-4f90-8452-8203e69510dd",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・図面",
+        "・基本情報"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "3a1eaf20-7b5c-4f46-90c2-3c0edb6880b6",
+      "name": "図面入手完了",
+      "level": 4,
+      "parent_id": "a5a5b4fd-9898-4f90-8452-8203e69510dd",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "1a105d14-2ff5-4980-942f-7f973f925d61"
+      ],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "bb13e8e7-6045-438d-a7ad-05408a39c46c",
+      "name": "ANDPAD案件立ち上げ",
+      "level": 4,
+      "parent_id": "a5a5b4fd-9898-4f90-8452-8203e69510dd",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・ANDPAD"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "be9bae3c-a62e-4e91-b277-ec74d598eafe",
+      "name": "移動",
+      "level": 3,
+      "parent_id": "db58fe9e-9901-4573-85a7-af815772b8e9",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工務（実測）",
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "5ca2884b-9896-4a4c-bcc1-d7018b6abd29",
+      "name": "代表部屋実測（管理室・理事長室）",
+      "level": 3,
+      "parent_id": "db58fe9e-9901-4573-85a7-af815772b8e9",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工務（実測）",
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "01742b1f-44e9-41f9-9fce-52aac1c91fbb",
+      "name": "全体確認",
+      "level": 3,
+      "parent_id": "db58fe9e-9901-4573-85a7-af815772b8e9",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "a1b67700-edd1-452a-a201-9811baec2399",
+      "name": "外部側確認・実測",
+      "level": 4,
+      "parent_id": "01742b1f-44e9-41f9-9fce-52aac1c91fbb",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工務（実測）",
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "7575fcac-f5ee-4a8e-94eb-448d887359cf",
+      "name": "現地状況把握",
+      "level": 3,
+      "parent_id": "db58fe9e-9901-4573-85a7-af815772b8e9",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "31ce4e44-6435-4f50-b0f3-41adc3b9cbc9",
+      "name": "既存仕様調査",
+      "level": 4,
+      "parent_id": "7575fcac-f5ee-4a8e-94eb-448d887359cf",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [
+        "・写真撮影"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工務（実測）",
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "7f1f34e3-bdd9-4c77-b008-f4fcced614d6",
+      "name": "見積・提案",
+      "level": 2,
+      "parent_id": "5b954436-f851-49f9-be3b-df5f175d05f8",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "name": "実施見積",
+      "level": 3,
+      "parent_id": "7f1f34e3-bdd9-4c77-b008-f4fcced614d6",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "551fbd45-3198-4e9f-8c05-ece2e29a67e8",
+      "name": "現調仕様取りまとめ",
+      "level": 4,
+      "parent_id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "672069aa-4356-4bfa-ac13-a1af856ad706",
+      "name": "積算・数量拾い",
+      "level": 4,
+      "parent_id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工務（積算）"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "35cfa2f0-13b5-43fc-baca-7c032e12b427",
+      "name": "工事仕様の設定",
+      "level": 4,
+      "parent_id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・工法・商品選定",
+        "・必要工種洗い出し選定"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工務（積算）"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "acd75c56-3c22-4d3a-a595-9703b61d8008",
+      "name": "工事計画の策定",
+      "level": 4,
+      "parent_id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・実測表・見取図作成"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工務（実測）",
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "16aec125-6908-4491-b883-30ab2b0deeca",
+      "name": "工事リスクの把握",
+      "level": 4,
+      "parent_id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・仮設計画策定"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工務（作図）"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "a4a7a026-082d-4108-8af8-415bc395e3e6",
+      "name": "見積依頼書作成",
+      "level": 4,
+      "parent_id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・見積依頼資料作成",
+        "・メーカー、施工業者選定"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "b5021f7d-6a38-4d3e-8668-c04f316a5e3f",
+      "name": "見積依頼",
+      "level": 4,
+      "parent_id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・電話",
+        "・メール"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "4a748838-7f30-4b9c-aeb8-b5915f494623",
+      "name": "原価見積入手",
+      "level": 4,
+      "parent_id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "b5021f7d-6a38-4d3e-8668-c04f316a5e3f"
+      ],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "225c2c5b-e593-488b-be50-08365e792789",
+      "name": "実施見積書　作成",
+      "level": 4,
+      "parent_id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "163044ea-9a6a-40b4-9831-929f8e906f0b",
+      "name": "補助金確認",
+      "level": 3,
+      "parent_id": "7f1f34e3-bdd9-4c77-b008-f4fcced614d6",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "86df0f3f-be29-4dba-a946-9d4776791c13",
+      "name": "補助金仕様確認",
+      "level": 4,
+      "parent_id": "163044ea-9a6a-40b4-9831-929f8e906f0b",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "09ee72ad-9a82-48f2-b720-6fa23d152cb7",
+      "name": "補助金 概算金額算出",
+      "level": 4,
+      "parent_id": "163044ea-9a6a-40b4-9831-929f8e906f0b",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "2b1a1999-d983-4678-92c8-e5741e5b5b83",
+      "name": "実施見積書　提出",
+      "level": 4,
+      "parent_id": "11621af3-f326-4dee-8cc3-8d4e1ad67c60",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・メール",
+        "・訪問"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "b7574641-28f4-4740-9131-2c3f7a307793",
+      "name": "実施見積`",
+      "level": 3,
+      "parent_id": "7f1f34e3-bdd9-4c77-b008-f4fcced614d6",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "098eee4f-fc4c-45f5-b40b-aa9b8b3e363d",
+      "name": "顧客確認（確度、予算感折り合い等）",
+      "level": 4,
+      "parent_id": "b7574641-28f4-4740-9131-2c3f7a307793",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・電話",
+        "・メール"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "09ee72ad-9a82-48f2-b720-6fa23d152cb7"
+      ],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "7f56d274-a7f5-4f83-87f7-385ed3050c92",
+      "name": "提案書",
+      "level": 3,
+      "parent_id": "7f1f34e3-bdd9-4c77-b008-f4fcced614d6",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "079cd3d0-a3ef-4f78-b21e-d840ba8f3083",
+      "name": "提案書 作成",
+      "level": 4,
+      "parent_id": "7f56d274-a7f5-4f83-87f7-385ed3050c92",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "c18487f9-b286-4730-96b1-e1bdd8ffdf4f",
+      "name": "提案書 提出",
+      "level": 4,
+      "parent_id": "7f56d274-a7f5-4f83-87f7-385ed3050c92",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・メール",
+        "・訪問"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "4eae9c24-0be0-43a6-8acc-fb1186a8e253",
+      "name": "顧客確認（確度、内容補足等）",
+      "level": 4,
+      "parent_id": "7f56d274-a7f5-4f83-87f7-385ed3050c92",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・電話",
+        "・メール"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "c18487f9-b286-4730-96b1-e1bdd8ffdf4f"
+      ],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "7b62be4c-e7c0-48fd-9e44-7f8fca4725a6",
+      "name": "住民合意形成",
+      "level": 2,
+      "parent_id": "5b954436-f851-49f9-be3b-df5f175d05f8",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "31b4bf4f-fa6c-4d83-8028-0586ec24de81",
+      "name": "理事会出席",
+      "level": 3,
+      "parent_id": "7b62be4c-e7c0-48fd-9e44-7f8fca4725a6",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "a38d7dd8-b770-4ec2-81cb-cbc014d19b3b",
+      "name": "移動",
+      "level": 4,
+      "parent_id": "31b4bf4f-fa6c-4d83-8028-0586ec24de81",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "f195db95-3330-4af1-918d-d7420f4d0f66",
+      "name": "プレゼン実施",
+      "level": 4,
+      "parent_id": "31b4bf4f-fa6c-4d83-8028-0586ec24de81",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "133752af-8869-4237-af3b-299786eb3f91",
+      "name": "取引申請",
+      "level": 2,
+      "parent_id": "5b954436-f851-49f9-be3b-df5f175d05f8",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "99d49ac3-5956-4fea-957d-afd817de2d5a",
+      "name": "与信管理",
+      "level": 3,
+      "parent_id": "133752af-8869-4237-af3b-299786eb3f91",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "cb3663a3-9e95-4173-811d-9d00eb41ceb9",
+      "name": "取引条件交渉",
+      "level": 4,
+      "parent_id": "99d49ac3-5956-4fea-957d-afd817de2d5a",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [
+        "・取引条件",
+        "・与信確認"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "9e6bd535-72a0-4011-bade-0e10d3239d9a",
+      "name": "取引条件交渉完了",
+      "level": 4,
+      "parent_id": "99d49ac3-5956-4fea-957d-afd817de2d5a",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [
+        "・取引条件",
+        "・与信確認"
+      ],
+      "method": [],
+      "internal_leadtime": true,
+      "external_leadtime": true,
+      "internal_leadtime_items": [
+        "cb3663a3-9e95-4173-811d-9d00eb41ceb9"
+      ],
+      "external_leadtime_items": [
+        "cb3663a3-9e95-4173-811d-9d00eb41ceb9"
+      ],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "64d999cd-44e2-425c-ab0a-ab385df988af",
+      "name": "施工検討会",
+      "level": 3,
+      "parent_id": "133752af-8869-4237-af3b-299786eb3f91",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "04850f6b-618e-4a11-ac2f-dbe0a4492d85",
+      "name": "施工検討会実施",
+      "level": 4,
+      "parent_id": "64d999cd-44e2-425c-ab0a-ab385df988af",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [
+        "・実行予算",
+        "・顧客与信",
+        "・仮設計画",
+        "・工期"
+      ],
+      "method": [],
+      "internal_leadtime": true,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "9e6bd535-72a0-4011-bade-0e10d3239d9a"
+      ],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業",
+        "工務（積算）",
+        "工務（実測）",
+        "工務（作図）",
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "f81edb80-22ce-44f1-831d-fd5613c48234",
+      "name": "取引申請書作成",
+      "level": 3,
+      "parent_id": "133752af-8869-4237-af3b-299786eb3f91",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・ワークフロー"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "303e1289-e86b-455f-a2fc-098c40270d0d",
+      "name": "仮契約",
+      "level": 2,
+      "parent_id": "5b954436-f851-49f9-be3b-df5f175d05f8",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "fbf93ed2-781d-47e4-a323-5aef855dd041",
+      "name": "請負金額取り決め",
+      "level": 3,
+      "parent_id": "303e1289-e86b-455f-a2fc-098c40270d0d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "9ed15f0b-2cbe-457e-b23e-744a070d6fc4",
+      "name": "内示書入手",
+      "level": 4,
+      "parent_id": "fbf93ed2-781d-47e4-a323-5aef855dd041",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "f81edb80-22ce-44f1-831d-fd5613c48234"
+      ],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "f3dc9c9a-adc0-4210-8462-eafdcd71e4e0",
+      "name": "本契約",
+      "level": 2,
+      "parent_id": "5b954436-f851-49f9-be3b-df5f175d05f8",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "cdd99abd-ad90-4b6e-8d4f-465be7bef25f",
+      "name": "契約書",
+      "level": 3,
+      "parent_id": "f3dc9c9a-adc0-4210-8462-eafdcd71e4e0",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "1a7e95f0-71c9-4515-b0d0-a5d392d894d4",
+      "name": "契約書作成",
+      "level": 4,
+      "parent_id": "cdd99abd-ad90-4b6e-8d4f-465be7bef25f",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "774cce3d-e9af-4cbc-be32-09921a15e257",
+      "name": "契約書提出",
+      "level": 4,
+      "parent_id": "cdd99abd-ad90-4b6e-8d4f-465be7bef25f",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "c7362cc7-2920-4cf7-bbe6-f846692e4c87",
+      "name": "契約書締結・入手",
+      "level": 4,
+      "parent_id": "cdd99abd-ad90-4b6e-8d4f-465be7bef25f",
+      "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "774cce3d-e9af-4cbc-be32-09921a15e257"
+      ],
+      "担当種別": [
+        "営業"
+      ],
+      "is_leaf": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "pbkdf2:sha256:1000000$9JY0zRMjK8EYYWnc$80694461c413dcf0454b0d28907d2562118589d6574deafe7141a3fba7abc4b9",
+    "role": "admin",
+    "担当種別": "all"
+  },
+  "demo": {
+    "username": "demo",
+    "password": "pbkdf2:sha256:1000000$QN1vofMw1vbOtCZG$6b463a82fcd4a032ab66ebb9834f7a10fcbde973a08782382f7825297fea7967",
+    "role": "user",
+    "担当種別": [
+      "営業",
+      "工務（積算）",
+      "工務（実測）",
+      "工務（作図）"
+    ]
+  },
+  "demo2": {
+    "username": "demo2",
+    "password": "pbkdf2:sha256:1000000$pzBS9wRbp30k3yxd$c1a6196cdef452252a1e9645f66b52648d0eef0934d9ee9f57005eb3f52b09b6",
+    "role": "user",
+    "担当種別": [
+      "オペレーション"
+    ]
+  }
+}

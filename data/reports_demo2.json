@@ -1,0 +1,30 @@
+{
+  "reports": [
+    {
+      "id": "93be558b-c090-4813-beb7-80fbcc7bb779",
+      "date": "2026-01-18",
+      "projects": [
+        {
+          "project_id": "dd9f7265-9b1b-4dc3-9df1-5f17029df2d7",
+          "work_items": [
+            {
+              "work_item_id": "bc115dc6-7cd4-438e-a1f1-9bb99ab6f676",
+              "work_type_id": "7dcf0715-62bc-475d-80d6-19a5daee3374",
+              "hierarchy": [
+                "2947f9fa-8b3d-4b79-bb93-d7ddff76d34c",
+                "7ab130d9-6be6-43ff-ae9b-e95cae4a375a",
+                "8dc4c06a-dada-4b9b-978c-36d719afd8f5",
+                "bc115dc6-7cd4-438e-a1f1-9bb99ab6f676"
+              ],
+              "minutes": 26,
+              "target_minutes": null
+            }
+          ]
+        }
+      ],
+      "work_items": [],
+      "created_at": "2026-01-18T23:49:32.293602",
+      "updated_at": "2026-01-18T23:49:32.293617"
+    }
+  ]
+}

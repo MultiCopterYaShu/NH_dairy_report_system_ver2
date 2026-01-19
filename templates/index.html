@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日報管理システム</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- ログイン画面 -->
+        <div id="login-screen" class="screen">
+            <div class="login-container">
+                <h1>日報管理システム</h1>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">ユーザー名</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">パスワード</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">ログイン</button>
+                    <div id="login-error" class="error-message"></div>
+                </form>
+            </div>
+        </div>
+
+        <!-- メイン画面 -->
+        <div id="main-screen" class="screen" style="display: none;">
+            <!-- ヘッダー -->
+            <header class="header">
+                <h1>日報管理システム</h1>
+                <div class="header-actions">
+                    <span id="user-info"></span>
+                    <button id="admin-btn" class="btn btn-secondary" style="display: none;">管理</button>
+                    <button id="logout-btn" class="btn btn-secondary">ログアウト</button>
+                </div>
+            </header>
+
+            <!-- 日報入力・履歴画面 -->
+            <div id="report-screen" class="content-container">
+                <div class="action-bar">
+                    <button id="new-report-btn" class="btn btn-primary">+ 新規日報追加</button>
+                </div>
+
+                <!-- 日報入力フォーム -->
+                <div id="report-form" class="report-form" style="display: none;">
+                    <h2>日報入力</h2>
+                    <div class="form-group">
+                        <label for="report-date">日付</label>
+                        <input type="date" id="report-date" required>
+                    </div>
+
+                    <div id="projects-container">
+                        <h3>プロジェクト</h3>
+                        <div id="report-projects-list"></div>
+                        <button type="button" id="add-report-project-btn" class="btn btn-secondary">+ プロジェクト追加</button>
+                    </div>
+
+                    <div class="form-actions">
+                        <button id="submit-report-btn" class="btn btn-success">日報完了</button>
+                        <button id="cancel-report-btn" class="btn btn-secondary">キャンセル</button>
+                    </div>
+                </div>
+
+                <!-- 作業履歴 -->
+                <div id="report-history" class="report-history">
+                    <h2>作業履歴</h2>
+                    <div class="view-mode-tabs">
+                        <button class="view-mode-tab active" data-mode="timeline">時系列</button>
+                        <button class="view-mode-tab" data-mode="date">日別</button>
+                        <button class="view-mode-tab" data-mode="user">ユーザー別</button>
+                        <button class="view-mode-tab" data-mode="project">プロジェクト別</button>
+                    </div>
+                    <!-- 日別表示用カレンダー -->
+                    <div id="date-filter-container" class="filter-container" style="display: none;">
+                        <label for="date-calendar">日付選択:</label>
+                        <input type="date" id="date-calendar" class="filter-input">
+                    </div>
+                    <!-- ユーザー別表示用ドロップダウン -->
+                    <div id="user-filter-container" class="filter-container" style="display: none;">
+                        <label for="user-filter">ユーザー選択:</label>
+                        <select id="user-filter" class="filter-input">
+                            <option value="">全てのユーザー</option>
+                        </select>
+                        <label for="user-month-filter">年月選択:</label>
+                        <input type="month" id="user-month-filter" class="filter-input">
+                    </div>
+                    <div id="history-list"></div>
+                </div>
+            </div>
+
+            <!-- 管理画面 -->
+            <div id="admin-screen" class="content-container" style="display: none;">
+                <div class="admin-tabs">
+                    <button class="tab-btn active" data-tab="accounts">アカウント管理</button>
+                    <button class="tab-btn" data-tab="work-types">工程マスター</button>
+                    <button class="tab-btn" data-tab="work-items">作業項目マスター</button>
+                    <button class="tab-btn" data-tab="job-categories">担当種別マスター</button>
+                    <button class="tab-btn" data-tab="projects">プロジェクトマスター</button>
+                    <button id="back-to-reports" class="tab-btn back-btn">← 日報画面に戻る</button>
+                </div>
+
+                <!-- アカウント管理 -->
+                <div id="tab-accounts" class="tab-content active">
+                    <h2>アカウント管理</h2>
+                    <button id="add-account-btn" class="btn btn-primary">+ アカウント追加</button>
+                    <div id="accounts-list"></div>
+                </div>
+
+                <!-- 工程マスター -->
+                <div id="tab-work-types" class="tab-content">
+                    <h2>工程マスター</h2>
+                    <button id="add-work-type-btn" class="btn btn-primary">+ 工程追加</button>
+                    <div id="work-types-list"></div>
+                </div>
+
+                <!-- 作業項目マスター -->
+                <div id="tab-work-items" class="tab-content">
+                    <h2>作業項目マスター</h2>
+                    <div class="action-bar">
+                        <label for="work-items-work-type-select">工程選択:</label>
+                        <select id="work-items-work-type-select" class="filter-input">
+                            <option value="">工程を選択してください</option>
+                        </select>
+                        <button id="add-master-work-item-btn" class="btn btn-primary">+ 作業項目追加</button>
+                        <button id="export-work-items-btn" class="btn btn-secondary">📥 Excel出力</button>
+                        <button id="import-work-items-btn" class="btn btn-secondary">📤 Excel読み込み</button>
+                        <input type="file" id="import-work-items-file" accept=".xlsx" style="display: none;">
+                    </div>
+                    <div id="master-work-items-list"></div>
+                </div>
+
+                <!-- 担当種別マスター -->
+                <div id="tab-job-categories" class="tab-content">
+                    <h2>担当種別マスター</h2>
+                    <button id="add-job-category-btn" class="btn btn-primary">+ 担当種別追加</button>
+                    <div id="job-categories-list"></div>
+                </div>
+
+                <!-- プロジェクトマスター -->
+                <div id="tab-projects" class="tab-content">
+                    <h2>プロジェクトマスター</h2>
+                    <button id="add-project-btn" class="btn btn-primary">+ プロジェクト追加</button>
+                    <div id="projects-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 達成アニメーション -->
+    <div id="achievement-animation" class="achievement-animation" style="display: none;">
+        <div class="achievement-content">
+            <div class="achievement-icon">🎉</div>
+            <h2>日報完了！</h2>
+            <p>お疲れ様でした！</p>
+        </div>
+    </div>
+
+    <!-- モーダル -->
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/auth.js"></script>
+    <script src="/static/js/reports.js"></script>
+    <script src="/static/js/admin.js"></script>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
+

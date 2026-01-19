@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+# データファイル（本番環境ではディスクストレージに保存）
+# data/*.json
+.env
+.DS_Store
+

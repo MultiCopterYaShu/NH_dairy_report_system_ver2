@@ -1,0 +1,2869 @@
+{
+  "items": [
+    {
+      "id": "162a32e2-cfd4-491b-b4c6-7b2ab57ba0ef",
+      "name": "現地調査",
+      "level": 1,
+      "parent_id": null,
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "300711af-b8ee-4e5a-901a-6aa388a22394",
+      "name": "工事前 現場調査",
+      "level": 2,
+      "parent_id": "162a32e2-cfd4-491b-b4c6-7b2ab57ba0ef",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "663d3823-c7e2-4524-91f9-6c22df7e0dd0",
+      "name": "現場調査",
+      "level": 3,
+      "parent_id": "300711af-b8ee-4e5a-901a-6aa388a22394",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "a6539116-0f98-4341-a5b2-66f3623e53aa",
+      "name": "仮設・搬入経路確認",
+      "level": 4,
+      "parent_id": "663d3823-c7e2-4524-91f9-6c22df7e0dd0",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "79dc4d0e-2e4d-4a3b-a033-804c75471a06",
+      "name": "仮設計画",
+      "level": 3,
+      "parent_id": "300711af-b8ee-4e5a-901a-6aa388a22394",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "0a3416a5-0d72-49e0-88e7-df03b18ad75d",
+      "name": "仮設計画作成",
+      "level": 4,
+      "parent_id": "79dc4d0e-2e4d-4a3b-a033-804c75471a06",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "7d9a4f17-9ce3-4954-8beb-1264b5633d2f",
+      "name": "工事事前準備",
+      "level": 1,
+      "parent_id": null,
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "5aed4914-5e47-4066-8474-94decfde5c25",
+      "name": "工事前 工程表作成",
+      "level": 2,
+      "parent_id": "7d9a4f17-9ce3-4954-8beb-1264b5633d2f",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "6e112505-fd40-437e-bf51-3f1c1a25e821",
+      "name": "メーカー納期確認",
+      "level": 3,
+      "parent_id": "5aed4914-5e47-4066-8474-94decfde5c25",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "2ddb9cd4-1169-49cc-9e07-04d51c108713",
+      "name": "材料納期確定",
+      "level": 4,
+      "parent_id": "6e112505-fd40-437e-bf51-3f1c1a25e821",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "0a3416a5-0d72-49e0-88e7-df03b18ad75d"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "857b17f7-668c-472c-b7fe-193b2903fbfd",
+      "name": "職人段取り",
+      "level": 3,
+      "parent_id": "5aed4914-5e47-4066-8474-94decfde5c25",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "2ddb9cd4-1169-49cc-9e07-04d51c108713"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "e2953433-61fe-48f8-8e09-ebe08117272c",
+      "name": "工程表作成",
+      "level": 3,
+      "parent_id": "5aed4914-5e47-4066-8474-94decfde5c25",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "358ccc2c-3aa8-412a-a1a3-411cf2f35ae3",
+      "name": "工事工程表提出",
+      "level": 2,
+      "parent_id": "7d9a4f17-9ce3-4954-8beb-1264b5633d2f",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "73c880ee-cd24-4e60-a26a-4bcd4155de43",
+      "name": "顧客へ工程提出",
+      "level": 3,
+      "parent_id": "358ccc2c-3aa8-412a-a1a3-411cf2f35ae3",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "e2953433-61fe-48f8-8e09-ebe08117272c"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "b2eae713-92fc-42df-b14f-53d06f50a463",
+      "name": "工事仮日程表・投函資料の作成",
+      "level": 2,
+      "parent_id": "7d9a4f17-9ce3-4954-8beb-1264b5633d2f",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "318d5f0c-3e23-47c5-a9c9-c2963f3f5214",
+      "name": "オペレーション業務依頼",
+      "level": 3,
+      "parent_id": "b2eae713-92fc-42df-b14f-53d06f50a463",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "6a24c210-8693-4b1c-8f63-091a60ffa7d0",
+      "name": "仮日程割り振り作成",
+      "level": 4,
+      "parent_id": "318d5f0c-3e23-47c5-a9c9-c2963f3f5214",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "b0e25328-a66f-4708-84ba-60c8b7d5d5c0",
+      "name": "オペレーション業務依頼　作成",
+      "level": 4,
+      "parent_id": "318d5f0c-3e23-47c5-a9c9-c2963f3f5214",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・日程調整指示書（実測期間/回答受付期間/投函日/案内書引渡日）",
+        "・仮日程割り当て表",
+        "・共用部掲示用資料指示"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "a8017174-2634-46ed-b985-53a02c003c3d",
+      "name": "オペレーション業務依頼",
+      "level": 4,
+      "parent_id": "318d5f0c-3e23-47c5-a9c9-c2963f3f5214",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・Teams"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "693eb0a1-72d1-4d96-a553-c595686b1b46",
+      "name": "オペレーション業務依頼　受理・内容確認",
+      "level": 4,
+      "parent_id": "318d5f0c-3e23-47c5-a9c9-c2963f3f5214",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・Teams"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "8f85317d-6018-495f-a7aa-eac730b36ca1",
+      "name": "仮日程表作成",
+      "level": 3,
+      "parent_id": "b2eae713-92fc-42df-b14f-53d06f50a463",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "112ee3ed-7972-458c-85b6-5dfd5e889cc6",
+      "name": "仮日程表（工事のお知らせ）作成",
+      "level": 4,
+      "parent_id": "8f85317d-6018-495f-a7aa-eac730b36ca1",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "526bf8fe-85ba-4799-82ea-e2c9aa92b9e1",
+      "name": "システム入力",
+      "level": 3,
+      "parent_id": "b2eae713-92fc-42df-b14f-53d06f50a463",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "a830fe8e-5d79-4953-b494-547c322eddeb",
+      "name": "PJ作成",
+      "level": 4,
+      "parent_id": "526bf8fe-85ba-4799-82ea-e2c9aa92b9e1",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "9419a0d3-5c2a-4970-baf4-a8921781f565",
+      "name": "部屋作成",
+      "level": 4,
+      "parent_id": "526bf8fe-85ba-4799-82ea-e2c9aa92b9e1",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "2d7b8948-37ae-4ed1-8de1-b1afc5c94d77",
+      "name": "日程作成・割り当て",
+      "level": 4,
+      "parent_id": "526bf8fe-85ba-4799-82ea-e2c9aa92b9e1",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・日程作成",
+        "・案内書出力"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "94581c8d-675a-484c-b6b7-003724e06932",
+      "name": "個別投函資料作成",
+      "level": 3,
+      "parent_id": "b2eae713-92fc-42df-b14f-53d06f50a463",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "72e7029e-62f2-47b0-ad55-ccf50e272605",
+      "name": "書面内容確認",
+      "level": 3,
+      "parent_id": "b2eae713-92fc-42df-b14f-53d06f50a463",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "a9dc7939-7450-438d-bbcd-59afa6c869b9",
+      "name": "確認依頼",
+      "level": 4,
+      "parent_id": "72e7029e-62f2-47b0-ad55-ccf50e272605",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・Teams"
+      ],
+      "internal_leadtime": true,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "94581c8d-675a-484c-b6b7-003724e06932"
+      ],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "1cf7520a-091b-410a-be13-7e934488d1e4",
+      "name": "顧客確認",
+      "level": 4,
+      "parent_id": "72e7029e-62f2-47b0-ad55-ccf50e272605",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・電話",
+        "・メール"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "a9dc7939-7450-438d-bbcd-59afa6c869b9"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "3e624c18-0732-448f-b9e4-c84cfe0d8025",
+      "name": "内容確定連絡",
+      "level": 4,
+      "parent_id": "72e7029e-62f2-47b0-ad55-ccf50e272605",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・印刷指示"
+      ],
+      "method": [
+        "・Teams"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "e7d0c01a-3d97-465c-a316-e03b272ac1ce",
+      "name": "工事前 投函準備",
+      "level": 2,
+      "parent_id": "7d9a4f17-9ce3-4954-8beb-1264b5633d2f",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "3c15a941-2709-486d-ab67-9bbe4e56f3c0",
+      "name": "投函資料印刷",
+      "level": 3,
+      "parent_id": "e7d0c01a-3d97-465c-a316-e03b272ac1ce",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "17489f56-0a49-4079-8051-a981a23e74bf",
+      "name": "投函資料印刷",
+      "level": 4,
+      "parent_id": "3c15a941-2709-486d-ab67-9bbe4e56f3c0",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・工事のお知らせ",
+        "・QR案内書",
+        "・システム手順書",
+        "・個別投函資料",
+        "・共用部掲示資料"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "24d85789-e4fd-489a-b5f6-67485fdc37cc",
+      "name": "袋作成",
+      "level": 3,
+      "parent_id": "e7d0c01a-3d97-465c-a316-e03b272ac1ce",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "6f1b4930-a1cc-4509-b10c-006b6d1cf20b",
+      "name": "袋詰め",
+      "level": 3,
+      "parent_id": "e7d0c01a-3d97-465c-a316-e03b272ac1ce",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "a72a4b57-3c4e-4559-9b41-79303bf9b1f1",
+      "name": "投函者引継",
+      "level": 3,
+      "parent_id": "e7d0c01a-3d97-465c-a316-e03b272ac1ce",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "10ffdc14-697d-4f6e-a36a-c7c53ddea0aa",
+      "name": "投函指示書作成",
+      "level": 4,
+      "parent_id": "a72a4b57-3c4e-4559-9b41-79303bf9b1f1",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "191c249a-100b-4b08-99ee-eb9c30ef0cb3",
+      "name": "投函セット引き渡し",
+      "level": 4,
+      "parent_id": "a72a4b57-3c4e-4559-9b41-79303bf9b1f1",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "4d109fb2-8359-4d16-b2a2-c5f87b5083b1",
+      "name": "Excel管理表作成",
+      "level": 3,
+      "parent_id": "e7d0c01a-3d97-465c-a316-e03b272ac1ce",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "896a1ebf-2754-43d8-aeea-11efb3b5b623",
+      "name": "（電話、QR内容一元管理用）",
+      "level": 4,
+      "parent_id": "4d109fb2-8359-4d16-b2a2-c5f87b5083b1",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "c9d634ff-8038-47d5-afe9-d1e29e508862",
+      "name": "アンケート投函回収",
+      "level": 1,
+      "parent_id": null,
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "cb612706-fbd4-464f-9a4b-258d1d5e8463",
+      "name": "工事前 アンケート配布（全戸投函）",
+      "level": 2,
+      "parent_id": "c9d634ff-8038-47d5-afe9-d1e29e508862",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "054b6f10-d386-4153-a219-c879da586174",
+      "name": "投函",
+      "level": 3,
+      "parent_id": "cb612706-fbd4-464f-9a4b-258d1d5e8463",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "1dc24aa1-e174-4ccc-b4ef-e9ed0a166c32",
+      "name": "移動",
+      "level": 4,
+      "parent_id": "054b6f10-d386-4153-a219-c879da586174",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "4d249d9f-a6b9-44ae-833d-217d61cf150d",
+      "name": "投函",
+      "level": 4,
+      "parent_id": "054b6f10-d386-4153-a219-c879da586174",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "9a4d3b0d-250b-4981-9254-896056eb8def",
+      "name": "移動",
+      "level": 4,
+      "parent_id": "054b6f10-d386-4153-a219-c879da586174",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "name": "日程集計・調整",
+      "level": 1,
+      "parent_id": null,
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "b8c101f8-e58b-416e-afdf-7b859a9ac44f",
+      "name": "工事前 住民回答期間中の作業",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "name": "電話対応",
+      "level": 3,
+      "parent_id": "b8c101f8-e58b-416e-afdf-7b859a9ac44f",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "0ebff3dc-db5d-458e-9b31-3554f61bc38c",
+      "name": "受電（IVRy or 担当者携帯）",
+      "level": 4,
+      "parent_id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・IVRy",
+        "・担当者携帯"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "0b9bbe91-bdcd-4c3c-9fda-bd40570c4d18",
+      "name": "架電（IVRy or 担当者携帯）",
+      "level": 4,
+      "parent_id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・IVRy",
+        "・担当者携帯"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "6d59087a-e821-465f-8458-019e7b64075f",
+      "name": "対応履歴・ステータス入力（IVRy ＆ システム＆Excel管理表）",
+      "level": 4,
+      "parent_id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・IVRy",
+        "・システム"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "5f23716a-b63a-4cd8-9078-2358f8a13610",
+      "name": "社内共有（期間外などのイレギュラー対応）",
+      "level": 4,
+      "parent_id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "1cc91be3-a20c-4118-93b6-d2a0e8854316",
+      "name": "社内確認（期間外などのイレギュラー対応）",
+      "level": 4,
+      "parent_id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": true,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "5f23716a-b63a-4cd8-9078-2358f8a13610"
+      ],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "ea5a9576-e4b6-4ef3-9d33-9f82c514b1df",
+      "name": "工事前 住民回答期間後の日程表作成",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "54ce934d-be08-402d-ba0a-080a19c6d05b",
+      "name": "QR回答出力",
+      "level": 3,
+      "parent_id": "ea5a9576-e4b6-4ef3-9d33-9f82c514b1df",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・システム"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "128b5206-442d-47a0-a415-2fe3c99757c5",
+      "name": "回答集計",
+      "level": 3,
+      "parent_id": "ea5a9576-e4b6-4ef3-9d33-9f82c514b1df",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・システム"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "154533b9-4848-4af4-bb5f-5dba00a13903",
+      "name": "社内確認",
+      "level": 3,
+      "parent_id": "ea5a9576-e4b6-4ef3-9d33-9f82c514b1df",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "6466570f-8c14-4e9e-b019-36925307321a",
+      "name": "現場担当者確認・調整",
+      "level": 4,
+      "parent_id": "154533b9-4848-4af4-bb5f-5dba00a13903",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": true,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "128b5206-442d-47a0-a415-2fe3c99757c5"
+      ],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "3cc8b055-b05a-40f5-9746-0d1cc6b7a509",
+      "name": "工事前 未回答者の連絡先を管理会社（組合）に確認",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "4b8fdfaa-3058-4abf-a848-8a9c380f7add",
+      "name": "未回答者一覧作成",
+      "level": 3,
+      "parent_id": "3cc8b055-b05a-40f5-9746-0d1cc6b7a509",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "e53f5c6a-042e-4981-807e-57718f4982e8",
+      "name": "システムの回答出力(電話回答 統合)",
+      "level": 4,
+      "parent_id": "4b8fdfaa-3058-4abf-a848-8a9c380f7add",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "d259b1de-aae4-47f9-bde4-758f68730c9a",
+      "name": "システムの閲覧リンク共有",
+      "level": 4,
+      "parent_id": "4b8fdfaa-3058-4abf-a848-8a9c380f7add",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "65129d29-19dd-4eaa-b392-21a36a4968c1",
+      "name": "未回答者一覧共有",
+      "level": 3,
+      "parent_id": "3cc8b055-b05a-40f5-9746-0d1cc6b7a509",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "7f3bf36e-b87c-4869-a682-25cb62960a03",
+      "name": "社内担当者への共有",
+      "level": 4,
+      "parent_id": "65129d29-19dd-4eaa-b392-21a36a4968c1",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "7f25435d-d5d0-4680-ab1c-26394f1b2106",
+      "name": "管理会社（組合）から未回答連絡先入手",
+      "level": 3,
+      "parent_id": "3cc8b055-b05a-40f5-9746-0d1cc6b7a509",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "7f3bf36e-b87c-4869-a682-25cb62960a03"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "f8fcc397-d9bf-4294-91a2-fd5c226001ac",
+      "name": "未回答者へTEL",
+      "level": 3,
+      "parent_id": "3cc8b055-b05a-40f5-9746-0d1cc6b7a509",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "c311efde-d2b4-4600-82ac-1cc907fd8044",
+      "name": "受電",
+      "level": 4,
+      "parent_id": "f8fcc397-d9bf-4294-91a2-fd5c226001ac",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "7f25435d-d5d0-4680-ab1c-26394f1b2106"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "59ac4667-00a0-492e-9116-109c543262c0",
+      "name": "架電",
+      "level": 4,
+      "parent_id": "f8fcc397-d9bf-4294-91a2-fd5c226001ac",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "c311efde-d2b4-4600-82ac-1cc907fd8044"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "ba279416-b889-4b66-97de-5a72c1da027a",
+      "name": "対応履歴・ステータス入力（システム）",
+      "level": 4,
+      "parent_id": "f8fcc397-d9bf-4294-91a2-fd5c226001ac",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "fca86759-a547-45c1-8d74-bc742057f107",
+      "name": "工事日程予定確定・決定書印刷",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "0b3b625d-0d52-442d-895d-d0245d815d47",
+      "name": "変更者へのTEL確認",
+      "level": 3,
+      "parent_id": "fca86759-a547-45c1-8d74-bc742057f107",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "ba9ede15-1d8b-4960-904c-d08610f140a7",
+      "name": "受電",
+      "level": 4,
+      "parent_id": "0b3b625d-0d52-442d-895d-d0245d815d47",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "4ea95c9e-b8a3-455a-bc95-25026472ee45",
+      "name": "架電",
+      "level": 4,
+      "parent_id": "0b3b625d-0d52-442d-895d-d0245d815d47",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "46f15498-d66f-49a9-95af-674c92cc1511",
+      "name": "対応履歴・ステータス入力（システム）",
+      "level": 4,
+      "parent_id": "0b3b625d-0d52-442d-895d-d0245d815d47",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "1dc33063-6982-4b70-bf3a-89273bf1f0f9",
+      "name": "受電",
+      "level": 4,
+      "parent_id": "0b3b625d-0d52-442d-895d-d0245d815d47",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "d027fc12-2ec5-42ae-bff5-03b34291cf28",
+      "name": "全体再調整",
+      "level": 3,
+      "parent_id": "fca86759-a547-45c1-8d74-bc742057f107",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": true,
+      "external_leadtime": true,
+      "internal_leadtime_items": [
+        "1dc33063-6982-4b70-bf3a-89273bf1f0f9"
+      ],
+      "external_leadtime_items": [
+        "1dc33063-6982-4b70-bf3a-89273bf1f0f9"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "ff7b5263-4325-41d1-b140-0cb06ea80bca",
+      "name": "決定書印刷",
+      "level": 3,
+      "parent_id": "fca86759-a547-45c1-8d74-bc742057f107",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "0b65c15e-51e2-4700-a536-02163737bde7",
+      "name": "工事前 投函者引継",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "7e7f1409-7f1b-425d-8dde-e0dc4cf2f301",
+      "name": "投函指示書作成",
+      "level": 3,
+      "parent_id": "0b65c15e-51e2-4700-a536-02163737bde7",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "f383c015-d9b9-4d3b-8d37-d48383b95804",
+      "name": "投函セット引き渡し",
+      "level": 3,
+      "parent_id": "0b65c15e-51e2-4700-a536-02163737bde7",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "7dba58ca-21f6-4395-b50b-1c3add992707",
+      "name": "工事日決定書配布（全戸投函）",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "9ced2d6c-d4f6-43b6-8788-f5518740921c",
+      "name": "移動",
+      "level": 3,
+      "parent_id": "7dba58ca-21f6-4395-b50b-1c3add992707",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "1bf8b827-3249-44c7-9642-21e9abccc25d",
+      "name": "投函",
+      "level": 3,
+      "parent_id": "7dba58ca-21f6-4395-b50b-1c3add992707",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "e4d8db7c-4f20-4d41-ab7a-7651f81dcee0",
+      "name": "移動",
+      "level": 3,
+      "parent_id": "7dba58ca-21f6-4395-b50b-1c3add992707",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "a3bdc23e-016b-4e56-a7b1-5e8ed395c187",
+      "name": "外部オーナーへの確認書類郵送",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "1bdcb582-2142-4d4e-90b3-c50df116a343",
+      "name": "外部オーナー住戸 住所・連絡先確認",
+      "level": 3,
+      "parent_id": "a3bdc23e-016b-4e56-a7b1-5e8ed395c187",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "37e10dd3-99e9-4375-bccc-d03c4f298831",
+      "name": "顧客説明・確認",
+      "level": 4,
+      "parent_id": "1bdcb582-2142-4d4e-90b3-c50df116a343",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "ce0fe77f-be76-4b20-b3cb-d4c4ec545600",
+      "name": "外部オーナー連絡先入手",
+      "level": 4,
+      "parent_id": "1bdcb582-2142-4d4e-90b3-c50df116a343",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "37e10dd3-99e9-4375-bccc-d03c4f298831"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "2e1c43be-0b21-45af-9bfc-0a2d298ba0c8",
+      "name": "オペレーション業務依頼",
+      "level": 3,
+      "parent_id": "a3bdc23e-016b-4e56-a7b1-5e8ed395c187",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "e2c939cc-e5dd-459b-a316-56f4f7f5ebcb",
+      "name": "オペレーション業務依頼　作成",
+      "level": 4,
+      "parent_id": "2e1c43be-0b21-45af-9bfc-0a2d298ba0c8",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "460983ab-5f14-4d69-882f-89836acb37bc",
+      "name": "オペレーション業務依頼",
+      "level": 4,
+      "parent_id": "2e1c43be-0b21-45af-9bfc-0a2d298ba0c8",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・Teams"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "70e6f077-72c7-4733-936a-785225035f4a",
+      "name": "オペレーション業務依頼　受理・内容確認",
+      "level": 4,
+      "parent_id": "2e1c43be-0b21-45af-9bfc-0a2d298ba0c8",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [
+        "・Teams"
+      ],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "9358aae3-c5a9-4ba6-83fa-a61c72413a6a",
+      "name": "送付書類作成",
+      "level": 3,
+      "parent_id": "a3bdc23e-016b-4e56-a7b1-5e8ed395c187",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "ed4d6941-26c5-40d5-bff7-457de385cd08",
+      "name": "工事のお知らせ（概要）",
+      "level": 4,
+      "parent_id": "9358aae3-c5a9-4ba6-83fa-a61c72413a6a",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "b4dbd826-1bc0-4dec-8860-a29dc47e8b67",
+      "name": "子鍵本数確認/引き渡し委任状",
+      "level": 4,
+      "parent_id": "9358aae3-c5a9-4ba6-83fa-a61c72413a6a",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "79074e4a-75cc-48c8-aaaa-94e003f1f688",
+      "name": "投函資料作成",
+      "level": 4,
+      "parent_id": "9358aae3-c5a9-4ba6-83fa-a61c72413a6a",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "c9b38307-a48b-4339-9253-ef9fb4570321",
+      "name": "委任状返信用封筒作成",
+      "level": 4,
+      "parent_id": "9358aae3-c5a9-4ba6-83fa-a61c72413a6a",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "e6e4f931-66c7-43cb-a3bc-8aec5741b473",
+      "name": "送付書類印刷",
+      "level": 3,
+      "parent_id": "a3bdc23e-016b-4e56-a7b1-5e8ed395c187",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "373c7031-f5ee-402a-9d0d-efeac72f7f48",
+      "name": "送付書類郵送",
+      "level": 3,
+      "parent_id": "a3bdc23e-016b-4e56-a7b1-5e8ed395c187",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "11b254e4-0e42-4d36-b46d-db11351ae063",
+      "name": "委任状入手",
+      "level": 3,
+      "parent_id": "a3bdc23e-016b-4e56-a7b1-5e8ed395c187",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "1f5c390a-062c-420b-805f-3ca14f050490",
+      "name": "外部オーナーより返送",
+      "level": 4,
+      "parent_id": "11b254e4-0e42-4d36-b46d-db11351ae063",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "373c7031-f5ee-402a-9d0d-efeac72f7f48"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "b7e57847-a29a-42dc-bb65-c85c94cadcac",
+      "name": "工事前 アンケート配布（全戸投函）",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "802dc63c-dfe4-4188-bf9c-038847c42e61",
+      "name": "投函者引継",
+      "level": 3,
+      "parent_id": "b7e57847-a29a-42dc-bb65-c85c94cadcac",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "2d051a94-839e-4ee0-a9ec-2e6700d1ad53",
+      "name": "投函指示書作成",
+      "level": 4,
+      "parent_id": "802dc63c-dfe4-4188-bf9c-038847c42e61",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "d43327b7-d3f5-4115-b1eb-04eeb068be89",
+      "name": "投函セット引き渡し",
+      "level": 4,
+      "parent_id": "802dc63c-dfe4-4188-bf9c-038847c42e61",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "80f134f6-1f75-4f59-a091-c263f619c369",
+      "name": "投函",
+      "level": 3,
+      "parent_id": "b7e57847-a29a-42dc-bb65-c85c94cadcac",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "ae49a91a-6709-4a23-b71b-5b0638517c37",
+      "name": "移動",
+      "level": 4,
+      "parent_id": "80f134f6-1f75-4f59-a091-c263f619c369",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "8dc1c77d-3453-4f45-83ff-5ccad97fdc62",
+      "name": "投函",
+      "level": 4,
+      "parent_id": "80f134f6-1f75-4f59-a091-c263f619c369",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "98de527d-6ef7-40bb-b372-dc64944cb6ba",
+      "name": "移動",
+      "level": 4,
+      "parent_id": "80f134f6-1f75-4f59-a091-c263f619c369",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "837543e5-579d-4389-baf0-27d8ad000763",
+      "name": "受電（IVRy or 担当者携帯）",
+      "level": 4,
+      "parent_id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "8a9c5aa2-d151-4452-abcd-38bf7f67b895",
+      "name": "架電（IVRy or 担当者携帯）",
+      "level": 4,
+      "parent_id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "d07ff90d-511f-4c6d-bda3-79734b2f4d5c",
+      "name": "対応履歴・ステータス入力（IVRy ＆ システム＆管理表Excel）",
+      "level": 4,
+      "parent_id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "dbd57a95-a172-4045-bed3-19905e360015",
+      "name": "社内共有",
+      "level": 4,
+      "parent_id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "db0ce308-936c-4538-b114-5a700b3de9c0",
+      "name": "社内確認",
+      "level": 4,
+      "parent_id": "52577ac1-a733-4cc5-8b51-6836877f71a6",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": true,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "dbd57a95-a172-4045-bed3-19905e360015"
+      ],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "4310b5b2-58c5-4800-9c42-86c6f285c4f7",
+      "name": "アンケート集計・工事日程予定組み",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "860b0713-fe6e-4bd2-8082-07a23b4312f9",
+      "name": "回答確認",
+      "level": 3,
+      "parent_id": "4310b5b2-58c5-4800-9c42-86c6f285c4f7",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "a2ecb0b3-abaf-4dc6-9a33-3436b5e0c383",
+      "name": "QR回答出力",
+      "level": 4,
+      "parent_id": "860b0713-fe6e-4bd2-8082-07a23b4312f9",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [
+        "・システム"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "ca7b59f2-bd10-4a0b-a5e8-332d6ae8270e",
+      "name": "EXCEL管理表入力",
+      "level": 3,
+      "parent_id": "ea5a9576-e4b6-4ef3-9d33-9f82c514b1df",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "801761c7-13d5-40a5-b0c3-750a03b73a31",
+      "name": "未回答者への確認",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "1c8ee7f1-0f42-4c61-8e7c-160304f31083",
+      "name": "管理会社（組合）へ連絡先確認",
+      "level": 3,
+      "parent_id": "801761c7-13d5-40a5-b0c3-750a03b73a31",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [
+        "・未回答者一覧を社内共有",
+        "・未回答者連絡先入手依頼",
+        "・未回答者連絡先入手"
+      ],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": true,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [
+        "a2ecb0b3-abaf-4dc6-9a33-3436b5e0c383"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "cc4347f5-6b17-4f18-a469-0fcde3c321c3",
+      "name": "未回答者へTEL",
+      "level": 3,
+      "parent_id": "801761c7-13d5-40a5-b0c3-750a03b73a31",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "dc241754-e3c4-43ff-81ba-18ad98a424ca",
+      "name": "受電",
+      "level": 4,
+      "parent_id": "cc4347f5-6b17-4f18-a469-0fcde3c321c3",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "22d91d50-3046-43e8-a5dd-c48c88232bf1",
+      "name": "架電",
+      "level": 4,
+      "parent_id": "cc4347f5-6b17-4f18-a469-0fcde3c321c3",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "575beb95-5a1e-4919-ac1b-adfc2adbb05e",
+      "name": "対応履歴・ステータス入力（システム）",
+      "level": 4,
+      "parent_id": "cc4347f5-6b17-4f18-a469-0fcde3c321c3",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "74c08be4-d7a6-43d6-a590-5fc75f8f16e0",
+      "name": "全体再調整",
+      "level": 3,
+      "parent_id": "fca86759-a547-45c1-8d74-bc742057f107",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "9273b522-9f4e-4a30-a4a4-dec99a80e8f4",
+      "name": "変更者へのTEL確認",
+      "level": 3,
+      "parent_id": "fca86759-a547-45c1-8d74-bc742057f107",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "あり"
+      ],
+      "external_leadtime_items": [
+        "あり"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "cf09a199-ea91-497d-bb24-b8c6bd5e5894",
+      "name": "決定書印刷",
+      "level": 3,
+      "parent_id": "fca86759-a547-45c1-8d74-bc742057f107",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "84e19072-fd78-40b0-b397-24e1356438dc",
+      "name": "投函指示書作成",
+      "level": 3,
+      "parent_id": "0b65c15e-51e2-4700-a536-02163737bde7",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "71ddb8a4-a94a-4986-a9c5-12780a86acfc",
+      "name": "投函セット引き渡し",
+      "level": 3,
+      "parent_id": "0b65c15e-51e2-4700-a536-02163737bde7",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "0b22d8bb-7660-473a-bda6-c613a2e277e8",
+      "name": "工事現地作業",
+      "level": 1,
+      "parent_id": null,
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "8b1bf102-59d3-4eda-9312-8306bce79349",
+      "name": "施工管理",
+      "level": 2,
+      "parent_id": "0b22d8bb-7660-473a-bda6-c613a2e277e8",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "964aec24-4c88-42cd-adee-fb1ab5b62160",
+      "name": "仮設材搬入立会",
+      "level": 3,
+      "parent_id": "8b1bf102-59d3-4eda-9312-8306bce79349",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "2076f8ca-f73f-4ae7-9697-f9ae48f77be5",
+      "name": "材料搬入立会",
+      "level": 3,
+      "parent_id": "8b1bf102-59d3-4eda-9312-8306bce79349",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "2505411e-983b-4741-8f9c-53e6a3ecb08d",
+      "name": "材料仕分け確認",
+      "level": 3,
+      "parent_id": "8b1bf102-59d3-4eda-9312-8306bce79349",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "157fe9fd-712b-4aba-8954-2f71340b15f5",
+      "name": "工事管理",
+      "level": 3,
+      "parent_id": "8b1bf102-59d3-4eda-9312-8306bce79349",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "42c7440e-4097-455d-919b-60df50207450",
+      "name": "産廃立会",
+      "level": 3,
+      "parent_id": "8b1bf102-59d3-4eda-9312-8306bce79349",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "3a8a21e8-c90c-437f-a87c-1556daeae787",
+      "name": "現場最終清掃",
+      "level": 3,
+      "parent_id": "8b1bf102-59d3-4eda-9312-8306bce79349",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "ddca37f2-3bda-4d21-91c3-86b78818e48e",
+      "name": "移動",
+      "level": 3,
+      "parent_id": "8b1bf102-59d3-4eda-9312-8306bce79349",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [
+        "なし"
+      ],
+      "external_leadtime_items": [
+        "なし"
+      ],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "1602901f-dbef-491c-a953-7936f47913c9",
+      "name": "工事日程予定確定・決定書印刷",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "207c6945-9919-4264-b079-c3c1414c5fba",
+      "name": "工事前 投函者引継",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "8592dfb1-1120-48cc-87c3-988e5707af35",
+      "name": "工事日 決定書配布（全戸投函）",
+      "level": 2,
+      "parent_id": "b580f01e-7a1a-42b1-8148-ec0438364e2d",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "eaffc7f8-81db-452a-89e5-8f99d8edf55f",
+      "name": "全体再調整",
+      "level": 3,
+      "parent_id": "1602901f-dbef-491c-a953-7936f47913c9",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "99bb3f8f-a9f9-4478-a661-904f9f681a7d",
+      "name": "変更者へのTEL確認",
+      "level": 3,
+      "parent_id": "1602901f-dbef-491c-a953-7936f47913c9",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": true,
+      "external_leadtime": true,
+      "internal_leadtime_items": [
+        "eaffc7f8-81db-452a-89e5-8f99d8edf55f"
+      ],
+      "external_leadtime_items": [
+        "eaffc7f8-81db-452a-89e5-8f99d8edf55f"
+      ],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "f8aa1e2a-5fe9-4db4-896a-199989b18375",
+      "name": "決定書印刷",
+      "level": 3,
+      "parent_id": "1602901f-dbef-491c-a953-7936f47913c9",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "9531605d-ea23-4d9f-8e95-6861dc150930",
+      "name": "投函指示書作成",
+      "level": 3,
+      "parent_id": "207c6945-9919-4264-b079-c3c1414c5fba",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "サイクルタイム",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "e803bcce-1875-4fc7-8a89-3d1085e0686c",
+      "name": "投函セット引渡し",
+      "level": 3,
+      "parent_id": "207c6945-9919-4264-b079-c3c1414c5fba",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "オペレーション"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "9bf172d1-0519-436d-af7d-45cffd343d89",
+      "name": "移動",
+      "level": 3,
+      "parent_id": "8592dfb1-1120-48cc-87c3-988e5707af35",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "bbaecfe8-5fc1-4f0b-9d82-3eadf824d5aa",
+      "name": "投函",
+      "level": 3,
+      "parent_id": "8592dfb1-1120-48cc-87c3-988e5707af35",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    },
+    {
+      "id": "4d7ce512-1f2c-4cbf-9045-b6195f38905e",
+      "name": "移動",
+      "level": 3,
+      "parent_id": "8592dfb1-1120-48cc-87c3-988e5707af35",
+      "work_type_id": "d97c57c0-2609-410d-9525-32feedeac4f5",
+      "attribute": "時期",
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [
+        "工事"
+      ],
+      "is_leaf": true
+    }
+  ]
+}

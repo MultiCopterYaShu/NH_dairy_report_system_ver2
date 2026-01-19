@@ -1,0 +1,232 @@
+{
+  "reports": [
+    {
+      "id": "21b9c907-1401-4d24-9d50-ac082cb296dc",
+      "date": "2026-01-18",
+      "projects": [
+        {
+          "project_id": "1",
+          "work_items": [
+            {
+              "work_item_id": "af88d8b4-6aff-47b1-9c47-12d0a5780a81",
+              "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+              "hierarchy": [
+                "5b954436-f851-49f9-be3b-df5f175d05f8",
+                "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+                "59e61929-baea-4cba-ad49-ec40690c1740",
+                "af88d8b4-6aff-47b1-9c47-12d0a5780a81"
+              ],
+              "minutes": 30,
+              "target_minutes": null,
+              "checklist": [
+                {
+                  "name": "・物件概要把握",
+                  "checked": true
+                },
+                {
+                  "name": "・住所",
+                  "checked": true
+                },
+                {
+                  "name": "・築年数",
+                  "checked": true
+                },
+                {
+                  "name": "・建物概要",
+                  "checked": true
+                },
+                {
+                  "name": "・依頼内容把握",
+                  "checked": true
+                },
+                {
+                  "name": "・工種",
+                  "checked": true
+                },
+                {
+                  "name": "・要望",
+                  "checked": true
+                },
+                {
+                  "name": "・戸数",
+                  "checked": true
+                },
+                {
+                  "name": "・時期",
+                  "checked": true
+                }
+              ]
+            },
+            {
+              "work_item_id": "76133c24-99ba-4414-bfe2-a1df9c6f5d6a",
+              "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+              "hierarchy": [
+                "5b954436-f851-49f9-be3b-df5f175d05f8",
+                "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+                "59e61929-baea-4cba-ad49-ec40690c1740",
+                "76133c24-99ba-4414-bfe2-a1df9c6f5d6a"
+              ],
+              "minutes": 10,
+              "target_minutes": null
+            }
+          ]
+        }
+      ],
+      "work_items": [],
+      "created_at": "2026-01-18T23:17:07.896576",
+      "updated_at": "2026-01-18T23:17:07.896581"
+    },
+    {
+      "id": "67ef7b3d-95fc-4ff2-a9f7-d00054de5608",
+      "date": "2026-01-20",
+      "projects": [
+        {
+          "project_id": "1",
+          "work_items": [
+            {
+              "work_item_id": "c57581a9-e66d-4ddc-904c-ee70a55bdbf5",
+              "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+              "hierarchy": [
+                "5b954436-f851-49f9-be3b-df5f175d05f8",
+                "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+                "59e61929-baea-4cba-ad49-ec40690c1740",
+                "c57581a9-e66d-4ddc-904c-ee70a55bdbf5"
+              ]
+            },
+            {
+              "work_item_id": "28c1aa44-7148-4fab-82b6-cf8e7f3967e1",
+              "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+              "hierarchy": [
+                "5b954436-f851-49f9-be3b-df5f175d05f8",
+                "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+                "6d28a493-04fe-467b-be90-7671d4cdf70f",
+                "28c1aa44-7148-4fab-82b6-cf8e7f3967e1"
+              ],
+              "minutes": 30,
+              "target_minutes": null
+            },
+            {
+              "work_item_id": "e90e0bcd-8186-49f3-808e-476ede88a711",
+              "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+              "hierarchy": [
+                "5b954436-f851-49f9-be3b-df5f175d05f8",
+                "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+                "6d28a493-04fe-467b-be90-7671d4cdf70f",
+                "e90e0bcd-8186-49f3-808e-476ede88a711"
+              ],
+              "minutes": 10,
+              "target_minutes": null
+            }
+          ]
+        }
+      ],
+      "work_items": [],
+      "created_at": "2026-01-18T23:18:29.468415",
+      "updated_at": "2026-01-18T23:18:29.468432"
+    },
+    {
+      "id": "47328494-609d-4f80-b7d1-985db5e1f6de",
+      "date": "2026-01-24",
+      "projects": [
+        {
+          "project_id": "1",
+          "work_items": [
+            {
+              "work_item_id": "e41c17b8-451c-4711-8283-479298f4c82a",
+              "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+              "hierarchy": [
+                "5b954436-f851-49f9-be3b-df5f175d05f8",
+                "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+                "8daec859-dd41-425c-96b9-bfa0f325ed17",
+                "e41c17b8-451c-4711-8283-479298f4c82a"
+              ],
+              "minutes": 60,
+              "target_minutes": null
+            },
+            {
+              "work_item_id": "c7282ec7-89e8-48e4-b488-209fca5ac275",
+              "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+              "hierarchy": [
+                "5b954436-f851-49f9-be3b-df5f175d05f8",
+                "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+                "8daec859-dd41-425c-96b9-bfa0f325ed17",
+                "c7282ec7-89e8-48e4-b488-209fca5ac275"
+              ],
+              "minutes": 10,
+              "target_minutes": null,
+              "checklist": [
+                {
+                  "name": "・社内確認",
+                  "checked": true
+                },
+                {
+                  "name": "・顧客確認",
+                  "checked": true
+                }
+              ]
+            },
+            {
+              "work_item_id": "b607f7ed-1f93-48e4-a25f-aabd88fca3bb",
+              "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+              "hierarchy": [
+                "5b954436-f851-49f9-be3b-df5f175d05f8",
+                "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+                "6d28a493-04fe-467b-be90-7671d4cdf70f",
+                "b607f7ed-1f93-48e4-a25f-aabd88fca3bb"
+              ]
+            }
+          ]
+        }
+      ],
+      "work_items": [],
+      "created_at": "2026-01-18T23:19:31.363095",
+      "updated_at": "2026-01-18T23:21:33.800688"
+    },
+    {
+      "id": "c82598d2-a486-40d7-9eda-95f9bcd6f4ff",
+      "date": "2026-01-28",
+      "projects": [
+        {
+          "project_id": "1",
+          "work_items": [
+            {
+              "work_item_id": "e3c1669f-7d96-4679-bb5c-74371a8e5d35",
+              "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+              "hierarchy": [
+                "5b954436-f851-49f9-be3b-df5f175d05f8",
+                "3e3d00f0-ad96-45d5-baab-14e04bfaf9c0",
+                "8daec859-dd41-425c-96b9-bfa0f325ed17",
+                "e3c1669f-7d96-4679-bb5c-74371a8e5d35"
+              ],
+              "checklist": [
+                {
+                  "name": "・社内確認",
+                  "checked": true
+                },
+                {
+                  "name": "・顧客確認",
+                  "checked": true
+                }
+              ]
+            },
+            {
+              "work_item_id": "779949aa-aad9-42de-ba01-ede4cfed2161",
+              "work_type_id": "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+              "hierarchy": [
+                "5b954436-f851-49f9-be3b-df5f175d05f8",
+                "db58fe9e-9901-4573-85a7-af815772b8e9",
+                "a5a5b4fd-9898-4f90-8452-8203e69510dd",
+                "779949aa-aad9-42de-ba01-ede4cfed2161"
+              ],
+              "minutes": 30,
+              "target_minutes": null
+            }
+          ]
+        }
+      ],
+      "work_items": [],
+      "created_at": "2026-01-18T23:20:10.583761",
+      "updated_at": "2026-01-18T23:22:37.796548"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "サンプルプロジェクト",
+      "status": "実行中",
+      "work_type_ids": [
+        "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+        "7dcf0715-62bc-475d-80d6-19a5daee3374",
+        "d97c57c0-2609-410d-9525-32feedeac4f5",
+        "ac447599-79b4-4f24-9cb2-9e86ffd344a8"
+      ],
+      "completed_date": null
+    },
+    {
+      "id": "dd9f7265-9b1b-4dc3-9df1-5f17029df2d7",
+      "name": "サンプルプロジェクトB",
+      "status": "未着手",
+      "work_type_ids": [
+        "204142f1-c30e-4471-bc9c-32b1acab2cf6",
+        "7dcf0715-62bc-475d-80d6-19a5daee3374",
+        "d97c57c0-2609-410d-9525-32feedeac4f5",
+        "ac447599-79b4-4f24-9cb2-9e86ffd344a8",
+        "a4c9e60f-9bf5-4f19-b4e8-988b872a6b3c",
+        "89d1337f-0288-4b73-ab62-a00885106137",
+        "7bbaa2d7-dd8f-49d4-8940-38d9b962bdd2"
+      ],
+      "completed_date": null
+    }
+  ]
+}

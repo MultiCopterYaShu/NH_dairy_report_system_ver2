@@ -1,0 +1,7 @@
+Flask
+Flask-CORS
+Werkzeug
+python-dotenv
+openpyxl
+gunicorn
+

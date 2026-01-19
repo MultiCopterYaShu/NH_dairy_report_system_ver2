@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "id": "19301c8c-e732-44e0-8046-0859883389f4",
+      "name": "玄関ドア項目",
+      "level": 1,
+      "parent_id": null,
+      "work_type_id": "7dcf0715-62bc-475d-80d6-19a5daee3374",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    },
+    {
+      "id": "91bdae47-19c0-49a9-b6da-34c89a99d5b0",
+      "name": "test",
+      "level": 2,
+      "parent_id": "19301c8c-e732-44e0-8046-0859883389f4",
+      "work_type_id": "7dcf0715-62bc-475d-80d6-19a5daee3374",
+      "attribute": null,
+      "target_minutes": null,
+      "checklist": [],
+      "method": [],
+      "internal_leadtime": false,
+      "external_leadtime": false,
+      "internal_leadtime_items": [],
+      "external_leadtime_items": [],
+      "担当種別": [],
+      "is_leaf": false
+    }
+  ]
+}
