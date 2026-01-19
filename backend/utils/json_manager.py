@@ -2,20 +2,12 @@ import json
 import os
 from typing import Any, Dict
 
-# 環境変数からデータディレクトリのパスを取得（Renderのディスクストレージ対応）
-# デフォルトは相対パスの'data'
-#DATA_DIR = os.environ.get('DATA_DIR', 'data')
-DATA_DIR = '/opt/render/project/src/data'
+DATA_DIR = 'data'
 
 def ensure_data_dir():
     """データディレクトリが存在することを確認"""
     if not os.path.exists(DATA_DIR):
-        try:
-            os.makedirs(DATA_DIR, exist_ok=True)
-            print(f"[json_manager] データディレクトリを作成しました: {os.path.abspath(DATA_DIR)}")
-        except Exception as e:
-            print(f"[json_manager] データディレクトリの作成に失敗しました: {e}, パス: {os.path.abspath(DATA_DIR)}")
-            raise
+        os.makedirs(DATA_DIR)
 
 def load_json(filename: str) -> Dict[str, Any]:
     """JSONファイルを読み込む"""
